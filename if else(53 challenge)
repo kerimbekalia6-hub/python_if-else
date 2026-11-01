@@ -1,0 +1,5 @@
+or obstacle in obstacles:
+    if obstacle.is_ice():
+        dragon.fire_at(obstacle)
+    else:
+        dragon.smash(obstacle)
